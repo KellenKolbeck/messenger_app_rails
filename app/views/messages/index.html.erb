@@ -1,0 +1,13 @@
+<h1>Messages</h1>
+<ul>
+  <% @messages.each do |message| %>
+    <li>
+    <%= message.from %> to <%= message.to %>
+    <%= message.body %>
+    <%= link_to "Edit", edit_message_path(message) %>
+    <%= link_to "Delete", message_path(message), data: {confirm: "Are you sure?", method: "delete"}  %>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to "New Message", new_message_path %>

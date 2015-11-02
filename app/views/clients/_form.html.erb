@@ -1,0 +1,16 @@
+<%= render 'layouts/errors', object: @client %>
+
+<%= form_for @client do |f| %>
+  <%= f.label :name  %>
+  <%= f.text_field :name %>
+  <%= f.label :number  %>
+  <%= f.text_field :number %>
+  <%= f.label :account_sid %>
+  <%= f.text_field :account_sid %>
+  <%= f.label :auth_token %>
+  <%= f.text_field :auth_token %>
+
+
+  <%= f.submit %>
+
+<% end %>
