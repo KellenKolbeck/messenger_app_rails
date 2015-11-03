@@ -2,10 +2,12 @@ class MessagesController < ApplicationController
 
   def index
     @messages = Message.all
+    @clients = Client.all
   end
 
   def new
     @message = Message.new
+    @clients = Client.all
   end
 
   def create

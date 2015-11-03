@@ -1,13 +1,14 @@
 class Message < ActiveRecord::Base
   before_create :send_message
 
+  has_many :clients, :dependent => :destroy
 
   validates :body, presence: true
-  validates :to, presence: true
+  # validates :to, presence: true
   validates :from, presence: true
 
 
-
+  accepts_nested_attributes_for :clients, :reject_if => lambda { |a| a[:content].blank? }, :allow_destroy => true
 
 private
 
