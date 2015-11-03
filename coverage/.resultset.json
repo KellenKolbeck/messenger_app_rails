@@ -315,27 +315,23 @@
         1,
         null,
         1,
-        0,
-        0,
+        1,
+        1,
         null,
         null,
         1,
-        0,
-        0,
+        1,
+        1,
         null,
         null,
         1,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        null,
-        null,
-        null,
         1,
+        1,
+        1,
+        1,
+        null,
         0,
+        null,
         null,
         null,
         1,
@@ -344,6 +340,10 @@
         null,
         1,
         0,
+        null,
+        null,
+        1,
+        0,
         0,
         0,
         null,
@@ -360,7 +360,7 @@
         1,
         null,
         1,
-        0,
+        1,
         null,
         null
       ],
@@ -389,7 +389,7 @@
         1,
         null,
         1,
-        0,
+        1,
         null,
         null,
         null,
@@ -416,6 +416,20 @@
         null,
         null
       ],
+      "/Users/Guest/Desktop/Message_On_Rails/spec/features/add_message_pages_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/Guest/Desktop/Message_On_Rails/spec/features/delete_client_pages_spec.rb": [
         1,
         null,
@@ -425,6 +439,18 @@
         1,
         1,
         1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/Message_On_Rails/spec/features/delete_message_pages_spec.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null
       ],
@@ -441,6 +467,9 @@
         1,
         null,
         null
+      ],
+      "/Users/Guest/Desktop/Message_On_Rails/spec/features/edit_message_pages_spec.rb": [
+
       ],
       "/Users/Guest/Desktop/Message_On_Rails/spec/models/client_spec.rb": [
         1,
@@ -463,6 +492,6 @@
         null
       ]
     },
-    "timestamp": 1446587976
+    "timestamp": 1446588702
   }
 }

@@ -5,7 +5,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <script src='./assets/0.10.0/application.js' type='text/javascript'></script>    
     <link href='./assets/0.10.0/application.css' media='screen, projection, print' rel='stylesheet' type='text/css'>
-    <link rel="shortcut icon" type="image/png" href="./assets/0.10.0/favicon_yellow.png" />
+    <link rel="shortcut icon" type="image/png" href="./assets/0.10.0/favicon_green.png" />
     <link rel="icon" type="image/png" href="./assets/0.10.0/favicon.png" />
   </head>
   
@@ -14,27 +14,27 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2015-11-03T13:59:36-08:00">2015-11-03T13:59:36-08:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2015-11-03T14:11:42-08:00">2015-11-03T14:11:42-08:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="yellow">83.44%</span></span>
+    (<span class="covered_percent"><span class="green">90.12%</span></span>
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.89
+         0.97
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>26</b> files in total.
-    <b>163</b> relevant lines. 
-    <span class="green"><b>136</b> lines covered</span> and
-    <span class="red"><b>27</b> lines missed </span>
+    <b>29</b> files in total.
+    <b>172</b> relevant lines. 
+    <span class="green"><b>155</b> lines covered</span> and
+    <span class="red"><b>17</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -72,12 +72,12 @@
       
       <tr>
         <td class="strong"><a href="#35de56ff4241815a57ce399c53f352a2fb4521cf" class="src_link" title="app/controllers/messages_controller.rb">app/controllers/messages_controller.rb</a></td>
-        <td class="red strong">34.48 %</td>
+        <td class="red strong">65.52 %</td>
         <td>51</td>
         <td>29</td>
-        <td>10</td>
         <td>19</td>
-        <td>0.3</td>
+        <td>10</td>
+        <td>0.7</td>
       </tr>
       
       <tr>
@@ -102,12 +102,12 @@
       
       <tr>
         <td class="strong"><a href="#de4f3f345d5db9da7947df7326ac6b19c3da7675" class="src_link" title="app/models/message.rb">app/models/message.rb</a></td>
-        <td class="yellow strong">88.89 %</td>
+        <td class="green strong">100.0 %</td>
         <td>26</td>
         <td>9</td>
-        <td>8</td>
-        <td>1</td>
-        <td>0.9</td>
+        <td>9</td>
+        <td>0</td>
+        <td>1.0</td>
       </tr>
       
       <tr>
@@ -261,6 +261,16 @@
       </tr>
       
       <tr>
+        <td class="strong"><a href="#1ea3626870325f46d3875a86f7c2e5757fcb1c35" class="src_link" title="spec/features/add_message_pages_spec.rb">spec/features/add_message_pages_spec.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>12</td>
+        <td>9</td>
+        <td>9</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
         <td class="strong"><a href="#ffb4fd6cf52d1705a70a78a4fc90b7b1bf0936c2" class="src_link" title="spec/features/delete_client_pages_spec.rb">spec/features/delete_client_pages_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>10</td>
@@ -271,6 +281,16 @@
       </tr>
       
       <tr>
+        <td class="strong"><a href="#e5ad7b98e494e37e1bdad6742172937d3db57cd4" class="src_link" title="spec/features/delete_message_pages_spec.rb">spec/features/delete_message_pages_spec.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>10</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0.0</td>
+      </tr>
+      
+      <tr>
         <td class="strong"><a href="#8f0fa155e3f4ee5b5795aaffd80a22e1da53e005" class="src_link" title="spec/features/edit_client_pages_spec.rb">spec/features/edit_client_pages_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>12</td>
@@ -278,6 +298,16 @@
         <td>9</td>
         <td>0</td>
         <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#460d6ff0bcf31a217cf4af828b508f29596a4b74" class="src_link" title="spec/features/edit_message_pages_spec.rb">spec/features/edit_message_pages_spec.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0.0</td>
       </tr>
       
       <tr>
@@ -665,11 +695,11 @@
         <div class="source_table" id="35de56ff4241815a57ce399c53f352a2fb4521cf">
   <div class="header">
     <h3>app/controllers/messages_controller.rb</h3>
-    <h4><span class="red">34.48 %</span> covered</h4>
+    <h4><span class="red">65.52 %</span> covered</h4>
     <div>
       <b>29</b> relevant lines. 
-      <span class="green"><b>10</b> lines covered</span> and
-      <span class="red"><b>19</b> lines missed.</span>
+      <span class="green"><b>19</b> lines covered</span> and
+      <span class="red"><b>10</b> lines missed.</span>
     </div>
   </div>
   
@@ -694,14 +724,14 @@
           <code class="ruby">  def index</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="4">
-          
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
           
           <code class="ruby">    @messages = Message.all</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="5">
-          
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
           
           <code class="ruby">    @clients = Client.all</code>
         </li>
@@ -724,14 +754,14 @@
           <code class="ruby">  def new</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="9">
-          
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
           
           <code class="ruby">    @message = Message.new</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="10">
-          
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
           
           <code class="ruby">    @clients = Client.all</code>
         </li>
@@ -754,26 +784,26 @@
           <code class="ruby">  def create</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="14">
-          
+        <li class="covered" data-hits="1" data-linenumber="14">
+          <span class="hits">1</span>
           
           <code class="ruby">    @message = Message.new(message_params)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="15">
-          
+        <li class="covered" data-hits="1" data-linenumber="15">
+          <span class="hits">1</span>
           
           <code class="ruby">    if @message.save</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="16">
-          
+        <li class="covered" data-hits="1" data-linenumber="16">
+          <span class="hits">1</span>
           
           <code class="ruby">      flash[:notice] = &quot;Your message was sent!&quot;</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="17">
-          
+        <li class="covered" data-hits="1" data-linenumber="17">
+          <span class="hits">1</span>
           
           <code class="ruby">      redirect_to messages_path</code>
         </li>
@@ -964,8 +994,8 @@
           <code class="ruby">  def message_params</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="49">
-          
+        <li class="covered" data-hits="1" data-linenumber="49">
+          <span class="hits">1</span>
           
           <code class="ruby">    params.require(:message).permit(:body, :to, :from, :media_url)</code>
         </li>
@@ -1079,11 +1109,11 @@
         <div class="source_table" id="de4f3f345d5db9da7947df7326ac6b19c3da7675">
   <div class="header">
     <h3>app/models/message.rb</h3>
-    <h4><span class="yellow">88.89 %</span> covered</h4>
+    <h4><span class="green">100.0 %</span> covered</h4>
     <div>
       <b>9</b> relevant lines. 
-      <span class="green"><b>8</b> lines covered</span> and
-      <span class="red"><b>1</b> lines missed.</span>
+      <span class="green"><b>9</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
   
@@ -1180,8 +1210,8 @@
           <code class="ruby">  def send_message</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="16">
-          
+        <li class="covered" data-hits="1" data-linenumber="16">
+          <span class="hits">1</span>
           
           <code class="ruby">    response = RestClient::Request.new(</code>
         </li>
@@ -2576,6 +2606,96 @@
   </pre>
 </div>
       
+        <div class="source_table" id="1ea3626870325f46d3875a86f7c2e5757fcb1c35">
+  <div class="header">
+    <h3>spec/features/add_message_pages_spec.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>9</b> relevant lines. 
+      <span class="green"><b>9</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;rails_helper&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">describe &quot;message a client&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  it &quot;messages a client&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    visit new_message_path</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    fill_in &#39;To&#39;, with: &#39;2813308004&#39;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    fill_in &#39;From&#39;, with: &#39;15005550006&#39;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    fill_in &#39;Body&#39;, with: &#39;Fruit&#39;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    click_on &quot;Create Message&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(page).to have_content &quot;Fruit&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
         <div class="source_table" id="ffb4fd6cf52d1705a70a78a4fc90b7b1bf0936c2">
   <div class="header">
     <h3>spec/features/delete_client_pages_spec.rb</h3>
@@ -2648,6 +2768,84 @@
           
           
           <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="e5ad7b98e494e37e1bdad6742172937d3db57cd4">
+  <div class="header">
+    <h3>spec/features/delete_message_pages_spec.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>0</b> relevant lines. 
+      <span class="green"><b>0</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="never" data-hits="" data-linenumber="1">
+          
+          
+          <code class="ruby"># require &#39;rails_helper&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby">#</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby"># describe &quot;Delete a message sent&quot; do</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby">#   it &quot;deletes a message&quot; do</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby">#     message = FactoryGirl.create(:message)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby">#     visit messages_path</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby">#     click_on &quot;Delete&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby">#     expect(page).to have_no_content &quot;Fruit&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby">#   end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby"># end</code>
         </li>
       
     </ol>
@@ -2739,6 +2937,24 @@
           
           <code class="ruby">end</code>
         </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="460d6ff0bcf31a217cf4af828b508f29596a4b74">
+  <div class="header">
+    <h3>spec/features/edit_message_pages_spec.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>0</b> relevant lines. 
+      <span class="green"><b>0</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
       
     </ol>
   </pre>
